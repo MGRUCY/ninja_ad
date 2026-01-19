@@ -50,8 +50,7 @@ ThemeData primaryTheme = ThemeData(
   ),
 
   //card theme
-  cardTheme: CardTheme(
-    // ignore: deprecated_member_use
+  cardTheme: CardThemeData(
     color: AppColors.secondaryColor.withOpacity(0.5),
     surfaceTintColor: Colors.transparent,
     shape: const RoundedRectangleBorder(),
@@ -69,7 +68,7 @@ ThemeData primaryTheme = ThemeData(
   ),
 
   //dialog theme
-  dialogTheme: DialogTheme(
+  dialogTheme: DialogThemeData(
     backgroundColor: AppColors.secondaryAccent,
     surfaceTintColor: Colors.transparent,
   )
