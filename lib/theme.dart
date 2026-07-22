@@ -49,15 +49,14 @@ ThemeData primaryTheme = ThemeData(
     ),
   ),
 
-  // //card theme
-  // cardTheme: CardTheme(
-  //   // ignore: deprecated_member_use
-  //   color: AppColors.secondaryColor.withOpacity(0.5),
-  //   surfaceTintColor: Colors.transparent,
-  //   shape: const RoundedRectangleBorder(),
-  //   shadowColor: Colors.transparent,
-  //   margin: const EdgeInsets.only(bottom: 15),
-  // ),
+  //card theme
+  cardTheme: CardThemeData(
+    color: AppColors.secondaryColor.withOpacity(0.5),
+    surfaceTintColor: Colors.transparent,
+    shape: const RoundedRectangleBorder(),
+    shadowColor: Colors.transparent,
+    margin: const EdgeInsets.only(bottom: 15),
+  ),
 
   //input decoration theme
   inputDecorationTheme: InputDecorationTheme(
@@ -68,10 +67,10 @@ ThemeData primaryTheme = ThemeData(
     prefixIconColor: AppColors.textColor,
   ),
 
-//   //dialog theme
-//   dialogTheme: DialogTheme(
-//     backgroundColor: AppColors.secondaryAccent,
-//     surfaceTintColor: Colors.transparent,
-//   )
+  //dialog theme
+  dialogTheme: DialogThemeData(
+    backgroundColor: AppColors.secondaryAccent,
+    surfaceTintColor: Colors.transparent,
+  )
 
 );
